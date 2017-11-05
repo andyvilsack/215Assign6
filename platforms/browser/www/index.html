@@ -1,0 +1,175 @@
+<!--
+John-George Sample
+Davis Smith
+Andrew Vilsack
+CPSC215
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Top 10 Shows | CSS</title>
+		<link href="styles.css" rel="stylesheet">
+		<script type = "text/javascript" src = "cordova.js"></script>
+		<script type = "text/javascript">
+		function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+		}
+		function onDeviceReady()
+		{
+			console.log(device.cordova);
+		}
+		function getDeviceInfo()
+		{
+			//alert(device.model);
+			var info = "Device Model: " + device.model + "<br>";
+			info += "Device Platform: " + device.platform + "<br>";
+			info += "Device UUID: " + device.uuid + "<br>";
+			info += "Device Version: " + device.version + "<br>";
+			info += "Device manufacturer: " + device.manufacturer + "<br>";
+			document.getElementById("outputdiv").innerHTML = info;
+		}
+		
+		</script>
+	</head>
+	<body onload="onLoad()">
+
+		<div class="body-wrapper">
+			<h1>Top Ten Must See</h1>
+			
+			<h2>1. Absolutely required viewing</h2>
+			<div class="row">
+			  <img src="./images/CoryInTheHouse.jpg" class="show">
+			  <img src="./images/Disney.jpg" class="network">
+			  
+			  <div class="description">
+			    <p>Show name: Cory in the House</p>
+			    <p>Channel Name: The Disney Channel</p>
+			    <p>Why you should watch it:  A nice coming of age tv show, it really shows us the life of a boy ripped from his element and thrust into a whole new world with different challenges that he has to face</p>
+			  </div>
+			</div>
+			
+			
+			<h2>2. Nearly absolutely required viewing</h2>
+			<div class="row">
+			  <img src="./images/Rugrats.png" class="show">
+			  <img src="./images/Nickelodeon.png" class="network">
+			  
+			  <div class="description">
+			    <p>Show name: Rugrats</p>
+			    <p>Channel Name: Nickelodeon</p>
+			    <p>Why you should watch it: A staple cartoon show of the 90's the Rugrats showed us how to deal with many of live's challenges no matter how small we are.  Nothing is impossible when you put your mind to it was a repeating message of this show.</p>
+			  </div>
+		  </div>
+			
+			
+			<h2>3. Almost nearly absolutely required viewing</h2>
+			<div class="row">	
+			  <img src="./images/spongebob.png" class="show">
+			  <img src="./images/Nickelodeon.png" class="network">
+
+			  <div class="description">
+			    <p>Show name: Spongebob Squarepants</p>
+			    <p>Channel Name: Nickelodeon</p>
+			    <p>Why you should watch it: An absolute classic, spongebob and his friends show us what life can be if you really do live everyday to the fullest.  A truly amazing piece of art. </p>
+			  </div>
+			</div>
+
+			
+			<h2>4. Almost nearly probably absolutely required viewing</h2>
+			<div class="row">
+			  <img src="./images/bates-motel.jpg" class="show">
+			  <img src="./images/ae.png" class="network">
+			  
+			  <div class="description">
+			    <p>Show name: Bates Motel</p>
+			    <p>Channel Name: A&amp;E</p>
+			    <p>Why you should watch it: A thrill ride all the way through, the viewer is really never comfortable because they never know what twist may be around the next corner. Nice and suspenseful. </p>
+			  </div>
+		  </div>
+
+			
+			<h2>5. Maybe almost nearly probably absolutely required viewing</h2>
+			<div class="row">
+			  <img src="./images/mythbusters.jpg" class="show">
+			  <img src="./images/discovery.png" class="network">
+			  
+			  <div class="description">
+			    <p>Show name: Mythbusters</p>
+			    <p>Channel Name: Discovery Channel</p>
+			    <p>Why you should watch it:  An educational piece that's disguised as a couple people blowing things up, Mythbusters always is able to sneak in lots of real world applicable skill, while remaining fun for a viewer of any age.</p>
+		    </div>
+			</div>
+			
+			<h2>6. Possibly maybe almost nearly probably absolutely required viewing</h2>
+			<div class="row">
+			  <img src="./images/ghost-adventures.jpg" class="show">
+			  <img src="./images/travel.jpg" class="network">
+			  
+			  <div class="description">
+			    <p>Show name: Ghost Adventures</p>
+			    <p>Channel Name: Travel Channel</p>
+			    <p>Why you should watch it: Although ghosts aren't real, it's fun in the moment to believe that you're really with these men as they enter "haunted" homes and buildings.  Very high production value and charismatic cast make this show a must watch.</p>
+		    </div>
+		</div>
+
+			<h2>7. Could be possibly maybe almost nearly probably absolutely required viewing</h2>
+			<div class="row">
+			  <img src="./images/cops.jpg" class="show">
+			  <img src="./images/spike.png" class="network">
+			  
+			  <div class="description">
+			    <p>Show name: Cops</p>
+			    <p>Channel Name: Spike</p>
+			    <p>Why you should watch it: Who doesn't like watching a drunk 30 year old getting tackled outside of a Walmart on a Thursday night?  Always a good watch and truly timeless.  There's never a dull moment for the men and women in law enforcement.</p>
+			  </div>
+			</div>
+			
+			<h2>8. Theoretically could be possibly maybe almost nearly probably absolutely required viewing</h2>
+			<div class="row">
+			  <img src="./images/campus.jpg" class="show">
+			  <img src="./images/spike.png" class="network">
+			  
+			  <div class="description">
+			    <p>Show name: Campus PD</p>
+			    <p>Channel Name: Spike</p>
+			    <p>Who doesn't like watching a drunk 20 year old getting tackled outside of a frat house on a thursday night?  In the same vain as Cops, campus PD is just a fun watch for the sole purpose of watching people get arrested.  You can never look away from the screen as these poor people dig themselves deeper and deeper into these holes of fines and petty jail time.</p>
+		    </div>
+		  </div>
+			
+	
+			<h2>9. Perhaps theoretically could be possibly maybe almost nearly probably absolutely required viewing</h2>
+			<div class="row">
+			  <img src="./images/criminal-minds.jpg" class="show">
+			  <img src="./images/cbs.jpg" class="network">
+			  
+			  <div class="description">
+			    <p>Show name: Criminal Minds</p>
+			    <p>Channel Name: CBS</p>
+			    <p>Why you should watch it: A classic crime drama show with a lot of elements that keep everything grounded and believable.  If you're interested in the genre look no further</p>
+		    </div>
+			</div>
+			
+			<h2>10. Eh, worth a watch</h2>
+			<div class="row">
+			  <img src="./images/teen-titans.png" class="show">
+			  <img src="./images/cartoon-network.png" class="network">
+			  
+			  <div class="description">
+			    <p>Show name: Teen Titans</p>
+			    <p>Channel Name: Cartoon Network</p>
+			    <p>Why you should watch it:  Based of the comic book series of the same name Teen Titans is about a group of superheroes in "training" as they work to protect their home from the evil forces that threaten them.</p>
+		    </div>
+		  </div>
+			
+	  </div>
+	  <hr>
+	  <h3>Authors &amp; Highest Class:</h3>
+	  <p>John-George Sample | 217</p>
+	  <p>Davis Smith | 217</p>
+	  <p>Andrew Vilsack | 217</p>
+	  <button type="button" onclick = "getDeviceInfo();">Click me for device info</button>
+	  <div id = "outputdiv">test</div>
+  </body>
+</html>
